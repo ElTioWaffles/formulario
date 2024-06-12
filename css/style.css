@@ -1,0 +1,61 @@
+body {
+    background-color: #e3f2fd; /* Azul claro */
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background-color: #90caf9; /* Azul intermedio */
+    border: 1px solid #42a5f5; /* Azul oscuro */
+    border-radius: 1px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0d47a1; /* Azul muy oscuro */
+}
+.form-label {
+    font-weight: bold;
+    color: #0d47a1; /* Azul muy oscuro */
+}
+
+
+.invalid-feedback, .text-danger {
+    color: #d32f2f; /* Rojo para errores */
+    font-size: 0.875em;
+    margin-top: 5px;
+}
+
+.btn-success {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    background-color: #1976d2; /* Azul para botones */
+    border: none;
+}
+
+.btn-outline-success {
+    color: #1976d2; /* Azul para botones outline */
+    border-color: #1976d2;
+}
+
+.btn-outline-success:hover {
+    background-color: #1976d2;
+    color: #ffffff;
+}
+
+.input-group-text, .form-control, .form-select {
+    background-color: #e3f2fd; /* Azul claro para inputs */
+    border-color: #42a5f5; /* Azul oscuro para bordes */
+}
+
+input::placeholder {
+    color: #0d47a1; /* Azul muy oscuro para placeholders */
+}
+
+#hobbiesList .list-group-item {
+    background-color: #e3f2fd; /* Azul claro para lista de hobbies */
+    border-color: #42a5f5; /* Azul oscuro para bordes */
+}
